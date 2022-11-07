@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{5047F577-EB21-415D-B409-97C538595BDA}">
+	<children>
+		<child name="WebTravelServiesProject" key="{0662E7CC-D502-4CED-A06C-3C987FF9415A}" path="WebTravelServiesProject\WebTravelServiesProject.mds" />
+	</children>
+	<testItems key="{C3D5B318-83C7-4444-A5EE-A85C49A2F915}">
+		<children>
+			<testItem key="{0662E7CC-D502-4CED-A06C-3C987FF9415A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{C8644953-8AA9-4DD1-9830-CB329AC0659F}" />
+	<analysis key="{4A977C66-D037-4DE4-BBBD-EA7D593E6F1C}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

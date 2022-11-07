@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="BookingHotelFromScratch" key="{500A27E7-370F-4FE2-9111-02856EC33376}" path="BookingHotelFromScratch.tcKDTest" />
+		<child name="BookingHotel2" key="{E769EDA8-292E-4380-8408-2047B2A84F1D}" path="BookingHotel2.tcKDTest" />
+		<child name="ReturnToHome" key="{37F4EBE7-FE6E-441C-AD7E-B292FF15006A}" path="ReturnToHome.tcKDTest" />
+	</children>
+</Root>

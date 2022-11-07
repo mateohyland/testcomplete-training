@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{0662e7cc-d502-4ced-a06c-3c987ff9415a}">
+				<Prp name="relpath" type="S" value="WebTravelServiesProject\WebTravelServiesProject.mds.tcLS"/>
+			</Node>
+			<Node name="{14b7a86b-9f19-4db7-969a-ac800aed8ee6}">
+				<Prp name="relpath" type="S" value="TravelServicesProject\TravelServicesProject.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{0662E7CC-D502-4CED-A06C-3C987FF9415A}"/>
+			</Node>
+			<Node name="{81a27d4c-2491-421a-9562-07a1971a1bef}">
+				<Prp name="relpath" type="S" value="LearningCheckpoints\LearningCheckpoints.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{66DC68DD-0F86-4FAA-B19A-B3D994A35230}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
